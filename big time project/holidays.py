@@ -1,0 +1,18 @@
+'''import mysql.connector
+conn=mysql.connector.connect(user='root',password='developer17',host='localhost',database='holidays')
+cursor=conn.cursor()
+cursor.execute('create table suggestion (slno numeric(2),name varchar(50),status varchar(20),budget varchar(10),picture varchar(20),text varchar(20));')
+cursor.execute('insert into suggestion values(1,"usa fun package","FAMILY",90000,"family.png","family.pdf");')
+cursor.execute('insert into suggestion values(2,"romantic getaways","NEWLY MARRIED",100000,"newlymarried.png","newlymarried.pdf");')
+cursor.execute('insert into suggestion values(3,"chardham yatra","PILIGRIMAGE",75000,"hindupiligrimage.png","hindupiligrimage.pdf");')
+cursor.execute('insert into suggestion values(4,"Imperial capitals","INDIVIDUAL",90000,"individual.png","individual.pdf");')
+cursor.execute('insert into suggestion values(5,"pearls of orient","",100000,"asia.png","asia.pdf");')
+cursor.execute('insert into suggestion values(6,"australia","",120000,"australia.png","australia.pdf");')
+cursor.execute('insert into suggestion values(7,"taste of danube","CRUISE",95000,"cruise.png","cruise.pdf");')
+cursor.execute('insert into suggestion values(8,"european treasures","",130000,"europa.png","europa.pdf");')
+cursor.execute('insert into suggestion values(9,"exotic europe","",250000,"europe.png","europe.pdf");')
+cursor.execute('insert into suggestion values(10,"exotic america with bahamas","",200000,"north america.png","north america.pdf");')
+cursor.execute('insert into suggestion values(11,"exotic south america","",135000,"south amrica.png","south america.pdf");')
+cursor.execute('insert into suggestion values(12,"exotic south africa","",125000,"south africa.png","south africa.pdf");')
+conn.commit()
+'''
